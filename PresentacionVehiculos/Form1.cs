@@ -30,9 +30,9 @@ namespace PresentacionVehiculos
             camion.CapacidadTransporte = 2000;
             camion.Remolque = new Remolque(10, 1000);
 
-            lblAutoElectrico.Text = autoElectrico.ToString();
+            lblAutoElectrico.Text = autoElectrico.Imprimir();
 
-            lblCamion.Text = camion.ToString();
+            lblCamion.Text = camion.Imprimir();
 
         }
     }

@@ -23,5 +23,10 @@ namespace LibTransportes.Entidades
 
         public abstract string Frenar();
 
+        public virtual string Imprimir()
+        {
+            return null;
+        }
+
     }
 }

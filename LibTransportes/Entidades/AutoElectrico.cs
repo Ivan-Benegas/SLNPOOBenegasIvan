@@ -30,7 +30,7 @@ namespace LibTransportes.Entidades
             return "El auto eléctrico frena a 20km/h";
         }
 
-        public override string ToString()
+        public override string Imprimir()
         {
             return "El modelo del auto eléctrico es " + this.Modelo + ".\n" +
                 "La marca es " + this.Marca + ".\n" +

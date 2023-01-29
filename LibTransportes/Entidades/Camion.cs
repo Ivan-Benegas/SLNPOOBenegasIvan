@@ -37,7 +37,7 @@ namespace LibTransportes.Entidades
             return "El camión frena a 10km/h";
         }
 
-        public override string ToString()
+        public override string Imprimir()
         {
             return "El modelo del camión es " + this.Modelo + ".\n" +
                 "La marca es " + this.Marca + ".\n" + 
